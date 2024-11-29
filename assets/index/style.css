@@ -1,0 +1,67 @@
+html {font-size: 62.5%;}
+body{
+    background-image: url('/assets/banner.jpg');
+    background-size: 100% auto;        /* Adatta l'immagine per coprire tutto lo schermo */
+    background-position: center;   /* Centra l'immagine */
+    background-repeat: no-repeat;  /* Evita la ripetizione dell'immagine */
+    text-align: center;
+    font-weight: bold;
+    width:max-content;
+}
+
+body h1 {
+    position:relative;
+color:#25a2c3;
+text-align: center;
+font-size: 3rem;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+body p{
+position:relative;
+margin-bottom: 5px;
+color: grey;
+text-align: center;
+font-size: 1.6rem;
+width: auto;
+line-height: 30px;
+}
+
+body button{
+    position:relative;
+    border: none;
+    box-decoration-break: none;
+    display: block; margin: auto; width: 100px;
+    align-self: center;
+    color:white;
+    background: #f04c2f;
+    border-radius: 7%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 130px; /* Imposta la larghezza del bottone */
+    height: 40px; /* Imposta l'altezza del bottone */
+}
+header{
+    background-color: black;
+    background-size: 100% auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1em;
+}
+
+header div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 2em 1.5em;
+}
